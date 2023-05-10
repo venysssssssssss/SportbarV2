@@ -37,9 +37,7 @@ Class Usuario
             $sql->bindValue(":s",$senha);
             $sql->execute();
             return true;
-            
         }
-
     }
 
     public function logar($nome, $senha)
