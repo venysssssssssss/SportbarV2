@@ -14,6 +14,19 @@ a {
   text-decoration: none;
 }
 
+div#msg-sucesso{
+    width: 400px;
+    margin: 25px auto;
+    padding: 18px;
+}
+
+div.msg-erro{
+    width: 230px;
+    margin: 25px auto;
+    padding: 18px;
+    color: firebrick;
+}
+
 .container-shadow {
   position: absolute;
   width: 525px;
