@@ -15,7 +15,7 @@
           <a id="sign-up" href="#"><span>Crie uma conta</span></a>
         </div>
         <div id="sign-in-form">
-          <form method="POST">
+          <form method="POST" action="processa.php">
             <label for="username">Nome</label>
             <input id="username" type="text" name="username" maxlength="30" />
             <label for="password">Senha</label>
@@ -31,7 +31,7 @@
           </footer>
         </div>
         <div id="sign-up-form">
-          <form method="POST">
+          <form method="POST" action="cadastrar.php">
             <label for="username">Nome</label>
             <input type="text" name="username" maxlength="30" />
             <label for="password">Senha</label>
