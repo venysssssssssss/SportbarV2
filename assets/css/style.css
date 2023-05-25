@@ -18,13 +18,16 @@ div#msg-sucesso{
     width: 400px;
     margin: 25px auto;
     padding: 18px;
+    background-color:   rgba(50, 205, 50, .3);
+    border: 1px solid rgb(34, 139, 34);
 }
 
 div.msg-erro{
     width: 230px;
     margin: 25px auto;
     padding: 18px;
-    color: firebrick;
+    background-color: rgba(250, 128, 114,.3);
+    border: 1px solid rgb(165, 42, 42);
 }
 
 .container-shadow {
