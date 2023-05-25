@@ -45,7 +45,7 @@ $u = new Usuario;
                     <input type="text" name="username" maxlength="30" />
                     <label for="password">Senha</label>
                     <input id="password" type="password" name="password" maxlength="15" />
-                    <label for="password0">Insiraa a senha novamente</label>
+                    <label for="password0">Insira a senha novamente</label>
                     <input id="password0" type="password" name="password0" />
                     <input type="submit" class="button" name="submit" value="Criar a conta" />
                 </form>
