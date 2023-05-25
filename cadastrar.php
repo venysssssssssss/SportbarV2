@@ -23,7 +23,7 @@ $u = new Usuario;
           <a id="sign-up" href="#"><span>Crie uma conta</span></a>
         </div>
         <div id="sign-in-form">
-          <form method="POST" action="processa.php">
+          <form method="POST" action="AreaPrivada.php">
             <label for="username">Nome</label>
             <input id="username" type="text" name="username" maxlength="30" />
             <label for="password">Senha</label>
@@ -58,7 +58,7 @@ $u = new Usuario;
 
 
 <?php
-    if(isset($_POST['submit']))
+    if(isset($_POST['username']))
     {
       $nome = addslashes($_POST['username']);
       $senha = addslashes($_POST['password']);
