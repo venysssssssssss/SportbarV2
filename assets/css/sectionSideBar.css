@@ -218,7 +218,7 @@ body{
   left: 260px;
   width: calc(100% - 260px);
   transition: all 0.5s ease;
-  padding: 12px;
+  padding: 0px;
 }
 .sidebar.close ~ .home-section{
   left: 78px;
@@ -267,6 +267,9 @@ body{
     left: 78px;
     width: calc(100% - 78px);
   }
+  .logo-image{
+    position: initial;
+  }
 }
 @import url(//fonts.googleapis.com/css?family=Lato:300:400);
 
@@ -293,12 +296,12 @@ p {
   background: linear-gradient(60deg, rgba(84,58,183,1) 0%, rgba(0,172,193,1) 100%);
   color:white;
 }
-.logo {
-  width:50px;
-  fill:white;
-  padding-right:15px;
-  display:inline-block;
-  vertical-align: middle;
+.logo-image {
+  width:500px;
+  position: relative;
+  text-align: center;
+  margin-bottom: -5%;
+  margin-right: 55%;
 }
 
 .inner-header {
@@ -375,5 +378,19 @@ p {
   }
   h1 {
     font-size:24px;
+  }
+  .logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 40%;
+  }
+  .logo-image {
+    width: 250px;
+    max-width: auto;
+    height: auto;
+    max-height: 200px; /* Ajuste o valor conforme necessário */
+    align-items: center;
+    margin-left: auto;
   }
 }
